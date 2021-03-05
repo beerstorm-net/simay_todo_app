@@ -1,3 +1,6 @@
+.*
+!.gitignore
+
 # See https://www.dartlang.org/guides/libraries/private-files
 
 # Files and directories created by pub
@@ -5,7 +8,18 @@
 .packages
 build/
 # If you're building an application, you may want to check-in your pubspec.lock
-pubspec.lock
+!pubspec.lock
+
+**/gen/
+**/localtemp/
+**/localtemp/*
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+# Web related
+lib/generated_plugin_registrant.dart
 
 # Directory created by dartdoc
 # If you don't generate documentation locally you can remove this line.
