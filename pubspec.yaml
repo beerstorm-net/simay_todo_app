@@ -30,9 +30,11 @@ dependencies:
 
   # utils
   http: ^0.13.0
-  shared_preferences: ^2.0.3
-  hive: ^1.4.4+1
-  hive_flutter: ^0.3.1
+
+  # note: use Hive instead of SharedPreferences!
+  #shared_preferences: ^2.0.3
+  hive: ^2.0.0
+  hive_flutter: ^1.0.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
